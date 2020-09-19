@@ -1,0 +1,5 @@
+<app-component2 (newTaskEvent)="addTask($event) "></app-component2>
+<hr>
+<ul class="list-group" style="margin: 50px auto; width: 50%; padding: 10px;">
+  <app-component3 *ngFor="let item of items" [item]="item"></app-component3>
+</ul>
